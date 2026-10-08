@@ -1,0 +1,6 @@
+vosk>=0.3.45
+PyAudio>=0.2.14
+pyttsx3>=2.99
+requests>=2.34
+numpy>=2.5
+matplotlib>=3.11

@@ -17,15 +17,14 @@ import google.generativeai as genai
 
 from retrying import retry
 
-# Set the path to the Vosk model directory
-model_path = 'C:/Users/MS-AHS-LPT/Documents/Pycharm Projects/JOYO Voice Assistant/vosk-model-en-in-0.5/vosk-model-en-in-0.5'
+# Resolve the model relative to this project, so it works on Linux and Windows.
+model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'models', 'vosk-model-en-in-0.5'))
 
 
 # Initialize speech synthesis engine
 engine = pyttsx3.init()
 engine.setProperty('rate', 150)
 engine.setProperty('volume', 1.0)
-engine.setProperty('voice', 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0')
 
 
 def speak(text):
@@ -71,8 +70,10 @@ def clear_input():
     pass  # Since there's no GUI, clearing input is not necessary
 
 
-# Set up the Google Generative(GEMINI) AI API key
-genai.configure(api_key="AIzaSyAvAVkYWJOaQGveuti3DTk83VN-UEw5lX4")
+# Load the Gemini credential from the environment instead of source control.
+gemini_api_key = os.environ.get("GEMINI_API_KEY")
+if gemini_api_key:
+    genai.configure(api_key=gemini_api_key)
 
 # Set up the model(not initialized by ahsan)
 generation_config = {
