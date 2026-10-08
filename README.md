@@ -131,11 +131,7 @@ The project demonstrates the integration of **Artificial Intelligence, Voice Rec
 
 ## 👨‍💻 Developer
 
-**Adnan Ahmed** 
-
-**Muhammad Yahya** 
-
-**Muhammad Ali**
+**Adnan Ahmed, Muhammad Yahya and Muhammad Ali** 
 
 
 **Project:** VOXControl  
