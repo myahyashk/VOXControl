@@ -12,18 +12,18 @@
 
 ## ✨ Features
 
-- 🎤 **Voice Recognition** — Converts spoken commands into text using Vosk.
-- 🤖 **AI Assistant** — Uses Google Gemini to answer natural-language questions.
-- 🔊 **Text-to-Speech** — Responds to users through voice using pyttsx3.
-- 🌐 **Web Automation** — Opens websites and web applications through voice commands.
-- 💻 **System Control** — Supports commands such as restart, sleep, and hibernate.
-- 🌍 **IP Information** — Retrieves public IP and location-related information.
-- 🎨 **Interactive GUI** — Desktop interface built with Tkinter with an animated voice visualization.
-- ⚡ **Multithreaded Processing** — Keeps voice recognition and the interface responsive.
+-  **Voice Recognition** — Converts spoken commands into text using Vosk.
+- **AI Assistant** — Uses Google Gemini to answer natural-language questions.
+- **Text-to-Speech** — Responds to users through voice using pyttsx3.
+- **Web Automation** — Opens websites and web applications through voice commands.
+- **System Control** — Supports commands such as restart, sleep, and hibernate.
+- **IP Information** — Retrieves public IP and location-related information.
+- **Interactive GUI** — Desktop interface built with Tkinter with an animated voice visualization.
+-  **Multithreaded Processing** — Keeps voice recognition and the interface responsive.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```text
 User Voice
@@ -45,7 +45,7 @@ Command Processing
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -61,7 +61,7 @@ Command Processing
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -131,7 +131,7 @@ The project demonstrates the integration of **Artificial Intelligence, Voice Rec
 
 ## 👨‍💻 Developer
 
-**Adnan Ahmed**
+**Adnan Ahmed** **Muhammad Yahya**  **Muhammad Ali**
 
 **Project:** VOXControl  
 **Event:** Techno Skill Exhibit 26  
