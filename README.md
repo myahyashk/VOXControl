@@ -10,7 +10,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 -  **Voice Recognition** — Converts spoken commands into text using Vosk.
 - **AI Assistant** — Uses Google Gemini to answer natural-language questions.
@@ -131,7 +131,9 @@ The project demonstrates the integration of **Artificial Intelligence, Voice Rec
 
 ## 👨‍💻 Developer
 
-**Adnan Ahmed** **Muhammad Yahya**  **Muhammad Ali**
+**Adnan Ahmed** 
+**Muhammad Yahya**  
+**Muhammad Ali**
 
 **Project:** VOXControl  
 **Event:** Techno Skill Exhibit 26  
